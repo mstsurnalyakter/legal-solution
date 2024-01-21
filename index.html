@@ -38,7 +38,6 @@
         theme: {
           extend: {
             colors: {
-              clifford: "#da373d",
               "btn-bg": "#B68C5A",
             },
           },
@@ -171,7 +170,7 @@
             the majority have suffered alteration in some form, by injected
             humour.
           </p>
-          <form action="" class="flex items-center justify-center">
+          <form action="" class="flex flex-col md:flex-row gap-2 md:gap-0 items-center justify-center">
             <input
               type="text"
               name="text"
@@ -537,57 +536,74 @@
         </p>
 
         <!--Container -->
-            <section
-              class="flex items-center justify-center gap-8 flex-col lg:flex-row-reverse"
-            >
-              <img src="./images/faq.png" class="flex-1" />
-              <!-- FAQ -->
-              <div class="flex-1">
-                <!-- First FAQ -->
-                <div class="collapse collapse-plus bg-base-200 mb-8 p-9">
-                  <input type="radio" name="my-accordion-3" checked="checked" />
-                  <div class="collapse-title text-xl font-bold">
-                    1. Are application fee waivers available?
-                  </div>
-                  <div class="collapse-content">
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, .</p>
-                  </div>
-                </div>
-                <!-- Second FAQ -->
-                <div class="collapse collapse-plus bg-base-200 mb-8 p-9">
-                  <input type="radio" name="my-accordion-3" />
-                  <div class="collapse-title text-xl font-bold">
-                    2. Are application fee waivers available?
-                  </div>
-                  <div class="collapse-content">
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
-                  </div>
-                </div>
-                <!-- Three FAQ -->
-                <div class="collapse collapse-plus bg-base-200 mb-8 p-9">
-                  <input type="radio" name="my-accordion-3" />
-                  <div class="collapse-title text-xl font-bold">
-                    3. Are application fee waivers available?
-                  </div>
-                  <div class="collapse-content">
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
-                  </div>
-                </div>
-                <!-- Fourth FAQ -->
-                <div class="collapse collapse-plus bg-base-200 mb-8 p-9">
-                  <input type="radio" name="my-accordion-3" />
-                  <div class="collapse-title text-xl font-bold">
-                    3. Are application fee waivers available?
-                  </div>
-                  <div class="collapse-content">
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
-                  </div>
-                </div>
+        <section
+          class="flex items-center justify-center gap-8 flex-col lg:flex-row-reverse"
+        >
+          <img src="./images/faq.png" class="flex-1" />
+          <!-- FAQ -->
+          <div class="flex-1">
+            <!-- First FAQ -->
+            <div class="collapse collapse-plus bg-base-200 mb-8 p-9">
+              <input type="radio" name="my-accordion-3" checked="checked" />
+              <div class="collapse-title text-xl font-bold">
+                1. Are application fee waivers available?
               </div>
-            </section>
+              <div class="collapse-content">
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, .
+                </p>
+              </div>
+            </div>
+            <!-- Second FAQ -->
+            <div class="collapse collapse-plus bg-base-200 mb-8 p-9">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-bold">
+                2. Are application fee waivers available?
+              </div>
+              <div class="collapse-content">
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, .
+                </p>
+              </div>
+            </div>
+            <!-- Three FAQ -->
+            <div class="collapse collapse-plus bg-base-200 mb-8 p-9">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-bold">
+                3. Are application fee waivers available?
+              </div>
+              <div class="collapse-content">
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, .
+                </p>
+              </div>
+            </div>
+            <!-- Fourth FAQ -->
+            <div class="collapse collapse-plus bg-base-200 mb-8 p-9">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-bold">
+                3. Are application fee waivers available?
+              </div>
+              <div class="collapse-content">
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, .
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
       </section>
 
       <!-- Contact Us Section -->
+
       <section class="mb">
         <h2
           class="text-center font-EB-Garamond font-extrabold text-3xl md:text-4xl lg:text-5xl mb-6"
@@ -595,111 +611,203 @@
           Contact With Us
         </h2>
         <p class="text-center mx-auto lg:w-[714px] px-2 mb-16">
-          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour.
         </p>
 
-        <section class="flex items-center justify-center gap-8 flex-col lg:flex-row">
-          <section class="flex-1 grid grid-cols-2">
-
-             <!-- first card -->
-          <div
-            class="bg-base-200 border-b-2 border-r-2 border-gray-300 "
+        <section
+          class="flex items-center justify-center gap-8 flex-col lg:flex-row"
+        >
+          <section
+            class="flex-1 grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-0"
           >
-            <figure class="pt-10">
-              <img src="./images/location.png" alt="business" class="w-10 mx-auto" />
-            </figure>
-            <div class="card-body text-center -mt-3 space-y-3">
-              <h2
-                class="text-center font-EB-Garamond font-extrabold text-xl lg:text-2xl opacity-70"
-              >
-                Address
-              </h2>
-              <p class="opacity-70">
-                A108 Adam Street,<br>
-            New York, NY 535022
-              </p>
+            <!-- first card -->
+            <div
+              class="bg-base-200 md:border-b-2 md:border-r-2 border-gray-300"
+            >
+              <figure class="pt-10">
+                <img
+                  src="./images/location.png"
+                  alt="business"
+                  class="w-10 mx-auto"
+                />
+              </figure>
+              <div class="card-body text-center -mt-3 space-y-3">
+                <h2
+                  class="text-center font-EB-Garamond font-extrabold text-xl lg:text-2xl opacity-70"
+                >
+                  Address
+                </h2>
+                <p class="opacity-70">
+                  A108 Adam Street,<br />
+                  New York, NY 535022
+                </p>
+              </div>
             </div>
-          </div>
 
-             <!-- second card -->
-          <div
-            class="bg-base-200 border-b-2 border-gray-300"
-          >
-            <figure class="pt-10">
-              <img src="./images/call.png" alt="business" class="w-10 mx-auto" />
-            </figure>
-            <div class="card-body text-center -mt-3 space-y-3">
-              <h2
-                class="text-center font-EB-Garamond font-extrabold text-xl lg:text-2xl opacity-70"
-              >
-               Call Us
-              </h2>
-              <p class="opacity-70">
-                +88 01750 00 00 00 <br>
-              +88 01750 00 00 00
-              </p>
+            <!-- second card -->
+            <div class="bg-base-200 md:border-b-2 border-gray-300">
+              <figure class="pt-10">
+                <img
+                  src="./images/call.png"
+                  alt="business"
+                  class="w-10 mx-auto"
+                />
+              </figure>
+              <div class="card-body text-center -mt-3 space-y-3">
+                <h2
+                  class="text-center font-EB-Garamond font-extrabold text-xl lg:text-2xl opacity-70"
+                >
+                  Call Us
+                </h2>
+                <p class="opacity-70">
+                  +88 01750 00 00 00 <br />
+                  +88 01750 00 00 00
+                </p>
+              </div>
             </div>
-          </div>
 
-             <!-- third card -->
-          <div
-            class="bg-base-200 border-r-2 border-gray-300"
-          >
-            <figure class="pt-10">
-              <img src="./images/email.png" alt="business" class="w-10 mx-auto" />
-            </figure>
-            <div class="card-body text-center -mt-3 space-y-3">
-              <h2
-                class="text-center font-EB-Garamond font-extrabold text-xl lg:text-2xl opacity-70"
-              >
-                Email Us
-              </h2>
-              <p class="opacity-70">
-                info@gmail.com <br>
-              info@gmail.com
-              </p>
+            <!-- third card -->
+            <div class="bg-base-200 md:border-r-2 border-gray-300">
+              <figure class="pt-10">
+                <img
+                  src="./images/email.png"
+                  alt="business"
+                  class="w-10 mx-auto"
+                />
+              </figure>
+              <div class="card-body text-center -mt-3 space-y-3">
+                <h2
+                  class="text-center font-EB-Garamond font-extrabold text-xl lg:text-2xl opacity-70"
+                >
+                  Email Us
+                </h2>
+                <p class="opacity-70">
+                  info@gmail.com <br />
+                  info@gmail.com
+                </p>
+              </div>
             </div>
-          </div>
 
-             <!-- fourth card -->
-          <div
-            class="bg-base-200"
-          >
-            <figure class="pt-10">
-              <img src="./images/time.png" alt="business" class="w-10 mx-auto" />
-            </figure>
-            <div class="card-body text-center -mt-3 space-y-3">
-              <h2
-                class="text-center font-EB-Garamond font-extrabold text-xl lg:text-2xl opacity-70"
-              >
-                Working Hours
-              </h2>
-              <p class="opacity-70">
-                Mon-Fri: 9AM to 5PM <br>
-              Sunday: 9AM to 1 PM
-              </p>
+            <!-- fourth card -->
+            <div class="bg-base-200">
+              <figure class="pt-10">
+                <img
+                  src="./images/time.png"
+                  alt="business"
+                  class="w-10 mx-auto"
+                />
+              </figure>
+              <div class="card-body text-center -mt-3 space-y-3">
+                <h2
+                  class="text-center font-EB-Garamond font-extrabold text-xl lg:text-2xl opacity-70"
+                >
+                  Working Hours
+                </h2>
+                <p class="opacity-70">
+                  Mon-Fri: 9AM to 5PM <br />
+                  Sunday: 9AM to 1 PM
+                </p>
+              </div>
             </div>
-          </div>
-
           </section>
 
           <!-- Form -->
           <section class="flex-1">
-            <form action="" class="space-y-5">
-              <input type="text" name="name" id="name" placeholder="Your Name" class="w-full bg-base-200 h-16 rounded-lg pl-6 outline-none">
-              <input type="email" name="email" id="email" placeholder="Your Email" class="w-full bg-base-200 h-16 rounded-lg pl-6 outline-none">
-              <input type="text" name="subject" id="subject" placeholder="Subject" class="w-full bg-base-200 h-16 rounded-lg pl-6 outline-none">
-              <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" class="w-full bg-base-200 h-40 rounded-lg pl-6 pt-10 outline-none"></textarea>
-              <input type="submit" value="Send Message" class="w-full bg-btn-bg text-white cursor-pointer h-16 rounded-lg pl-6 outline-none">
+            <form action="" class="space-y-5 px-3">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Your Name"
+                class="w-full bg-base-200 h-16 rounded-lg pl-6 outline-none"
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your Email"
+                class="w-full bg-base-200 h-16 rounded-lg pl-6 outline-none"
+              />
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder="Subject"
+                class="w-full bg-base-200 h-16 rounded-lg pl-6 outline-none"
+              />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Your Message"
+                class="w-full bg-base-200 h-40 rounded-lg pl-6 pt-10 outline-none"
+              ></textarea>
+              <input
+                type="submit"
+                value="Send Message"
+                class="w-full bg-btn-bg text-white cursor-pointer h-16 rounded-lg pl-6 outline-none"
+              />
             </form>
           </section>
-
+        </section>
       </section>
 
 
     </main>
 
     <!-- footer section -->
-    <footer></footer>
+    <footer class="py-20 md:py-28 bg-[#111] text-white text-base-content">
+
+      <section class="footer container mx-auto px-16 lg:px-24">
+        <nav>
+        <header class="mb-8"><img src="./images/logo.png" alt=""></header>
+        <p class="opacity-70 w-44 text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+      </nav>
+      <nav>
+        <header class="mb-8 mt-5 text-xl font-EB-Garamond">Useful Link</header>
+        <a class="link link-hover opacity-70 text-lg ">Homes</a>
+        <a class="link link-hover opacity-70">About Us</a>
+        <a class="link link-hover opacity-70">Cases</a>
+        <a class="link link-hover opacity-70 text-lg ">Blog</a>
+        <a class="link link-hover opacity-70 text-lg ">Contact Us</a>
+      </nav>
+      <nav>
+        <header class="mb-8 mt-5 text-xl font-EB-Garamond">Contact Now</header>
+        <a class="link link-hover text-lg opacity-70">
+          555 4th 5t NW, Washington <br>
+          DC 20530, United States
+        </a>
+        <a class="link link-hover text-lg  opacity-70">
+          +88 01750 000 000 <br>
+          +88 01750 000 000
+        </a>
+        <a class="link link-hover text-lg  opacity-70">
+          info@gmail.com <br>
+          info@gmail.com
+        </a>
+      </nav>
+      <form>
+        <header class="mb-8 mt-5 text-xl font-EB-Garamond">Newsletter</header>
+        <fieldset class="form-control w-80">
+          <label class="label">
+            <span class="label-text">Enter your email address</span>
+          </label>
+          <div class="join">
+            <input
+              type="text"
+              placeholder="username@site.com"
+              class="input input-bordered join-item text-black"
+            />
+            <button class="btn bg-btn-bg hover:bg-btn-bg join-item"><img src="./images/arrow.png" alt=""></button>
+          </div>
+        </fieldset>
+      </form>
+      </section>
+
+    </footer>
+
   </body>
 </html>
